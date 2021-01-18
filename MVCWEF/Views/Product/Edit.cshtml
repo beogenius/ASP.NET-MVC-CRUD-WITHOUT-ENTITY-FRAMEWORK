@@ -1,0 +1,53 @@
+﻿@model MVCWEF.Models.ProductModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div>
+        <h2>Product</h2>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.ProductID)
+
+        <div>
+            @Html.LabelFor(model => model.ProductName)
+            <div>
+                @Html.EditorFor(model => model.ProductName)
+                @Html.ValidationMessageFor(model => model.ProductName)
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Price)
+            <div>
+                @Html.EditorFor(model => model.Price)
+                @Html.ValidationMessageFor(model => model.Price)
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Count)
+            <div>
+                @Html.EditorFor(model => model.Count)
+                @Html.ValidationMessageFor(model => model.Count)
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

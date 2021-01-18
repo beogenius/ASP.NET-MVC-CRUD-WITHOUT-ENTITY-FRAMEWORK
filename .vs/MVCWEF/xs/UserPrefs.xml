@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{FDB35256-6FE0-4C49-A1A2-3A483B58B4CF}|">
+  <MonoDevelop.Ide.ItemProperties.MVCWEF PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVCWEF/Global.asax">
+    <Files>
+      <File FileName="MVCWEF/Controllers/ProductController.cs" Line="20" Column="66" />
+      <File FileName="MVCWEF/Models/ProductModel.cs" />
+      <File FileName="MVCWEF/Views/Product/Create.cshtml" Line="45" Column="19" />
+      <File FileName="MVCWEF/Views/Product/Edit.cshtml" Line="36" Column="49" />
+      <File FileName="MVCWEF/Views/Product/Index.cshtml" Line="1" Column="1" />
+      <File FileName="MVCWEF/App_Start/Startup.Auth.cs" />
+      <File FileName="MVCWEF/App_Start/RouteConfig.cs" />
+      <File FileName="MVCWEF/App_Start/FilterConfig.cs" />
+      <File FileName="MVCWEF/App_Start/BundleConfig.cs" />
+      <File FileName="MVCWEF/Content/bootstrap.css" />
+      <File FileName="MVCWEF/Content/bootstrap.min.css" />
+      <File FileName="MVCWEF/Content/Site.css" Line="1" Column="1" />
+      <File FileName="MVCWEF/Startup.cs" Line="1" Column="1" />
+      <File FileName="MVCWEF/Web.config" Line="29" Column="21" />
+      <File FileName="MVCWEF/packages.config" Line="30" Column="69" />
+      <File FileName="MVCWEF/Global.asax" Line="2" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVCWEF" expanded="True">
+            <Node name="MVCWEF" expanded="True">
+              <Node name="App_Start" expanded="True" />
+              <Node name="Content" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="fonts" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Product" expanded="True" />
+              </Node>
+              <Node name="Global.asax" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Macbook/Desktop/Mvc Crud Using ADO.Net Without Entity Framework/MVCWEF/MVCWEF/Controllers/ProductController.cs" relfile="MVCWEF/Controllers/ProductController.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
